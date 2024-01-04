@@ -1,0 +1,67 @@
+// headear start
+
+.destination-body{
+    background-image: url(../images/body-img.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.header{
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar__link{
+    color: #FFF;
+    font-family: Barlow, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+
+    span{
+        font-weight: 700;
+    }
+}
+
+// header end
+
+
+// hero start
+
+.hero{
+    padding-top: 100px;
+    padding-left: 119px ;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    padding-bottom: 61px;
+    color: #FFF;
+    font-family: Barlow, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+
+    span{
+        font-weight: 700;
+        opacity: 0.25;
+    }
+}
+// hero end
