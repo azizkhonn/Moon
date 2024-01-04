@@ -1,0 +1,62 @@
+// Header styles start
+
+.site-header {
+    padding: 64px 0 24px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/moon-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navbar {
+    padding: 39px 123px 38px 123px;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item {
+    border: none;
+
+
+    & + & {
+        margin-left: 50px;
+    }
+
+    &:hover {
+        border: none;
+        border-bottom: 3px solid #fff;
+        padding-bottom: 50px;
+    }
+}
+
+.navbar__number {
+    margin-right: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.navbar__link {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+// Header styles end
