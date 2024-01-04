@@ -1,18 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-::selection{
-
+::selection {
 }
 
-
-body{
-    font-family: 'Bellefair', serif;
-    font-family: "Barlow", sans-serif;
+body {
+  overflow-y: hidden;
+  margin: 0 auto;
+  font-family: "Bellefair", serif;
+  font-family: "Barlow-Condensed", sans-serif;
 }
-
