@@ -1,0 +1,86 @@
+.technology-body{
+    background-image: url(../../images/technology-page-desktop-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.site-header{
+    padding: 40px 0 100px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-logo-link{
+    margin-left: 55px;
+    display: inline-block;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+// .navbar-line{
+//     width: 150px;
+//     display: inline-block;
+//     position: absolute;
+//     left: 350px;
+//     z-index: 2;
+// }
+
+.navbar-list{
+    padding: 39px 167px 39px 123px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+
+.navbar-item + .navbar-item{
+    margin-left: 52px;
+}
+
+.navbar-link-span{
+    margin-right: 14px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.navbar-link{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.hero-title-span{
+    margin-right: 24px;
+    opacity: 0.25;
+}
+
+.hero-title{
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
